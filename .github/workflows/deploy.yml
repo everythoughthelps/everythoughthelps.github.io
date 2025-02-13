@@ -1,32 +1,33 @@
-name: Deploy Hugo site to GitHub Pages
+name: Deploy Blog
 
 on:
   push:
     branches:
-      - main  # 只有当 'main' 分支有更新时，GitHub Actions 会触发部署
+      - main  # 触发工作流的分支，通常是 main 或 master
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest  # 选择 GitHub Actions 使用的环境
+    runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout code
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      # Step 2: Set up Hugo
-      - name: Set up Hugo
-        uses: peaceiris/actions-hugo@v2
+      - name: Set up Node.js (if needed)
+        uses: actions/setup-node@v3
         with:
-          hugo-version: '0.118.0'  # 选择 Hugo 的版本（如果需要可以更改）
+          node-version: 18  # 根据你的项目需求调整 Node.js 版本
 
-      # Step 3: Build the site
-      - name: Build the site
-        run: hugo --minify  # 构建网站并进行压缩
+      - name: Install dependencies
+        run: |
+          npm install  # 或者 yarn install，根据你的项目需求
 
-      # Step 4: Deploy to GitHub Pages
+      - name: Build blog
+        run: |
+          npm run build  # 或者 hugo、jekyll build 等，根据你的项目需求
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.GITHUB_TOKEN }}  # GitHub 会自动提供该 token
-          publish_dir: ./public  # Hugo 默认生成的静态文件目录
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # GitHub 自动提供的 token
+          publish_dir: ./public  # 生成的静态文件目录
