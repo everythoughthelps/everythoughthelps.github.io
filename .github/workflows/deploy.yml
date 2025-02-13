@@ -1,9 +1,9 @@
-name: Deploy Blog
+name: Deploy Hugo Blog
 
 on:
   push:
     branches:
-      - main  # 触发工作流的分支，通常是 main 或 master
+      - main  # 触发工作流的分支
 
 jobs:
   deploy:
@@ -12,22 +12,21 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-
-      - name: Set up Node.js (if needed)
-        uses: actions/setup-node@v3
         with:
-          node-version: 18  # 根据你的项目需求调整 Node.js 版本
+          submodules: true  # 如果使用了 Hugo 主题作为子模块，需要启用 submodules
 
-      - name: Install dependencies
-        run: |
-          npm install  # 或者 yarn install，根据你的项目需求
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.143.1'  # 替换为你的 Hugo 版本
+          extended: true  # 如果使用 Hugo Extended 版本
 
       - name: Build blog
-        run: |
-          npm run build  # 或者 hugo、jekyll build 等，根据你的项目需求
+        run: hugo --minify  # 生成静态文件
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}  # GitHub 自动提供的 token
-          publish_dir: ./public  # 生成的静态文件目录
+          publish_dir: ./public  # Hugo 生成的静态文件目录
+          publish_branch: gh-pages  # 部署到的分支
