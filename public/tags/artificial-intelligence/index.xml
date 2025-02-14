@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on Pan&#39;s blog</title>
-    <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on Pan&#39;s blog</description>
+    <title>Artificial Intelligence on Pan&#39;s blog</title>
+    <link>http://localhost:1313/tags/artificial-intelligence/</link>
+    <description>Recent content in Artificial Intelligence on Pan&#39;s blog</description>
     <image>
       <title>Pan&#39;s blog</title>
       <url>http://localhost:1313/images/papermod-cover.png</url>
@@ -13,13 +13,13 @@
     <language>en</language>
     <copyright>PaperMod Contributors</copyright>
     <lastBuildDate>Thu, 13 Feb 2025 10:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI</title>
-      <link>http://localhost:1313/categories/ai/</link>
+      <title>Understanding the Transformer Model</title>
+      <link>http://localhost:1313/posts/transformer/</link>
       <pubDate>Thu, 13 Feb 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/categories/ai/</guid>
-      <description></description>
+      <guid>http://localhost:1313/posts/transformer/</guid>
+      <description>A comprehensive explanation of the Transformer model in deep learning.</description>
     </item>
   </channel>
 </rss>

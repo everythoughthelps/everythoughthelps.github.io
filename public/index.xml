@@ -12,7 +12,14 @@
     <generator>Hugo -- 0.143.1</generator>
     <language>en</language>
     <copyright>PaperMod Contributors</copyright>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2025 10:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding the Transformer Model</title>
+      <link>http://localhost:1313/posts/transformer/</link>
+      <pubDate>Thu, 13 Feb 2025 10:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/transformer/</guid>
+      <description>A comprehensive explanation of the Transformer model in deep learning.</description>
+    </item>
   </channel>
 </rss>
