@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>All Posts on Pan&#39;s blog</title>
-    <link>https://everythoughthelps.github.io/posts/</link>
-    <description>Recent content in All Posts on Pan&#39;s blog</description>
+    <title>Transformer on Pan&#39;s blog</title>
+    <link>https://everythoughthelps.github.io/tags/transformer/</link>
+    <description>Recent content in Transformer on Pan&#39;s blog</description>
     <image>
       <title>Pan&#39;s blog</title>
       <url>https://everythoughthelps.github.io/images/papermod-cover.png</url>
@@ -13,7 +13,7 @@
     <language>en</language>
     <copyright>PaperMod Contributors</copyright>
     <lastBuildDate>Thu, 13 Feb 2025 10:00:00 +0800</lastBuildDate>
-    <atom:link href="https://everythoughthelps.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://everythoughthelps.github.io/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding the Transformer Model</title>
       <link>https://everythoughthelps.github.io/posts/transformer/</link>
