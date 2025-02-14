@@ -21,24 +21,30 @@
                 />
   </url><url>
     <loc>http://localhost:1313/categories/ai/</loc>
-    <lastmod>2025-02-13T10:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-02-13T10:00:00+08:00</lastmod>
+    <lastmod>2025-02-13T18:00:00+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/artificial-intelligence/</loc>
-    <lastmod>2025-02-13T10:00:00+08:00</lastmod>
+    <lastmod>2025-02-13T18:00:00+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-02-13T10:00:00+08:00</lastmod>
+    <lastmod>2025-02-13T18:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/deep-learning/</loc>
-    <lastmod>2025-02-13T10:00:00+08:00</lastmod>
+    <loc>http://localhost:1313/tags/chatgpt/</loc>
+    <lastmod>2025-02-13T18:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-02-13T18:00:00+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-02-13T10:00:00+08:00</lastmod>
+    <lastmod>2025-02-13T18:00:00+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/transformer/</loc>
+    <lastmod>2025-02-13T18:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/journeyinchatgpt/</loc>
+    <lastmod>2025-02-13T18:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/deep-learning/</loc>
     <lastmod>2025-02-13T10:00:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/transformer/</loc>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Artificial Intelligence on Pan&#39;s blog</title>
-    <link>http://localhost:1313/tags/artificial-intelligence/</link>
-    <description>Recent content in Artificial Intelligence on Pan&#39;s blog</description>
+    <title>ChatGPT on Pan&#39;s blog</title>
+    <link>http://localhost:1313/tags/chatgpt/</link>
+    <description>Recent content in ChatGPT on Pan&#39;s blog</description>
     <image>
       <title>Pan&#39;s blog</title>
       <url>http://localhost:1313/images/papermod-cover.png</url>
@@ -13,20 +13,13 @@
     <language>en</language>
     <copyright>PaperMod Contributors</copyright>
     <lastBuildDate>Thu, 13 Feb 2025 18:00:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What happens when you send a message to ChatGPT?</title>
       <link>http://localhost:1313/posts/journeyinchatgpt/</link>
       <pubDate>Thu, 13 Feb 2025 18:00:00 +0100</pubDate>
       <guid>http://localhost:1313/posts/journeyinchatgpt/</guid>
       <description>A comprehensive explanation of the ChatGPT model in deep learning.</description>
-    </item>
-    <item>
-      <title>Understanding the Transformer Model</title>
-      <link>http://localhost:1313/posts/transformer/</link>
-      <pubDate>Thu, 13 Feb 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/transformer/</guid>
-      <description>A comprehensive explanation of the Transformer model in deep learning.</description>
     </item>
   </channel>
 </rss>
