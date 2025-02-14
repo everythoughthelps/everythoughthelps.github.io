@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>AI on Pan&#39;s blog</title>
-    <link>https://everythoughthelps.github.io/categories/ai/</link>
-    <description>Recent content in AI on Pan&#39;s blog</description>
+    <title>ChatGPT on Pan&#39;s blog</title>
+    <link>https://everythoughthelps.github.io/tags/chatgpt/</link>
+    <description>Recent content in ChatGPT on Pan&#39;s blog</description>
     <image>
       <title>Pan&#39;s blog</title>
       <url>https://everythoughthelps.github.io/images/papermod-cover.png</url>
@@ -13,20 +13,13 @@
     <language>en</language>
     <copyright>PaperMod Contributors</copyright>
     <lastBuildDate>Thu, 13 Feb 2025 18:00:00 +0100</lastBuildDate>
-    <atom:link href="https://everythoughthelps.github.io/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://everythoughthelps.github.io/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What happens when you send a message to ChatGPT?</title>
       <link>https://everythoughthelps.github.io/posts/journeyinchatgpt/</link>
       <pubDate>Thu, 13 Feb 2025 18:00:00 +0100</pubDate>
       <guid>https://everythoughthelps.github.io/posts/journeyinchatgpt/</guid>
       <description>A comprehensive explanation of the ChatGPT model in deep learning.</description>
-    </item>
-    <item>
-      <title>Understanding the Transformer Model</title>
-      <link>https://everythoughthelps.github.io/posts/transformer/</link>
-      <pubDate>Thu, 13 Feb 2025 10:00:00 +0800</pubDate>
-      <guid>https://everythoughthelps.github.io/posts/transformer/</guid>
-      <description>A comprehensive explanation of the Transformer model in deep learning.</description>
     </item>
   </channel>
 </rss>
