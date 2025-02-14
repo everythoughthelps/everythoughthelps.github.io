@@ -1,4 +1,4 @@
-baseURL = 'https://everythoughthelps.github.io'
+baseURL = 'https://everythoughthelps.github.io/pansblog/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 [module]
