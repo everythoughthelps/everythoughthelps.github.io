@@ -79,5 +79,8 @@ params:
       darkTheme: "dark"
       lang: "zh-CN"
       crossorigin: "anonymous"
+caches:
+  images:
+    dir: :cacheDir/images
 
 
