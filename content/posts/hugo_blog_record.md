@@ -1,9 +1,9 @@
 +++
 date = '2025-03-24T22:40:57+08:00'
-draft = true
+draft = false
 title = 'Hugo+Papermod+github pages个人博客搭建记录'
 categories = ["通用技术"]
-tags = ["博客搭建"]
+tags = ["博客搭建", "hugo", "papermod"]
 comments = true
 +++
  
