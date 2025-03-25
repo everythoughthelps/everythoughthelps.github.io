@@ -52,6 +52,7 @@ outputs:
     - JSON # necessary for search, 这里的配置修改好之后，一定要重新生成一下
 
 params:
+  math: true
   # 搜索
   fuseOpts:
       isCaseSensitive: false # 是否大小写敏感
@@ -63,24 +64,38 @@ params:
       # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
       keys: ["title", "permalink", "summary", "content"]
       includeMatches: true
-  params:
-    # 评论的设置
-    giscus:
-      repo: "everythoughthelps/everythoughthelps.github.io"
-      repoId: "R_kgDOON0ckg"
-      category: "Announcements"
-      categoryId: "DIC_kwDOON0cks4CoaCL"
-      mapping: "pathname"
-      strict: "0"
-      reactionsEnabled: "1"
-      emitMetadata: "0"
-      inputPosition: "bottom"
-      lightTheme: "preferred_color_scheme"
-      darkTheme: "dark"
-      lang: "zh-CN"
-      crossorigin: "anonymous"
+
+  # 评论的设置
+  giscus:
+    repo: "everythoughthelps/everythoughthelps.github.io"
+    repoId: "R_kgDOON0ckg"
+    category: "Announcements"
+    categoryId: "DIC_kwDOON0cks4CoaCL"
+    mapping: "pathname"
+    strict: "0"
+    reactionsEnabled: "1"
+    emitMetadata: "0"
+    inputPosition: "bottom"
+    lightTheme: "preferred_color_scheme"
+    darkTheme: "dark"
+    lang: "zh-CN"
+    crossorigin: "anonymous"
 caches:
   images:
     dir: :cacheDir/images
 
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - $
+            - $
+        enable: true
 
