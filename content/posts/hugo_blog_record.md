@@ -345,6 +345,27 @@ git push -u origin main
 ```
 后面按照hugo的官方部署指导操作即可，[部署连接](https://gohugo.io/host-and-deploy/host-on-github-pages/)
 
+## 发布或者更新博客
+后续的博客统一放在content/posts/目录下：
+```bash
+hugo new content content/posts/my-first-post.md
+```
+使用编辑器编辑mu-first-post.md后，启动hugo本地服务器预览博客：
+```bash
+# -D 参数表示包含草稿文章
+hugo server -D
+```
+预览无误后，将原数据中draft: true 改为 flase，取消草稿状态，生成最终静态文件：
+```bash
+hugo
+```
+将生成的 public 目录部署到你的托管平台：
+```bash
+~cd public~ # 这句可以去掉，我们在.gitigonre中忽略了public，这步会网页部署的时候自动生成
+git add .
+git commit -m "release first post"
+git push origin main
+```
 ## 后续完善参考文献引用
 
 ## 参考链接
