@@ -1,6 +1,6 @@
 +++
 date = '2025-09-02T17:10:51+08:00'
-draft = true
+draft = false
 title = 'DDPM到DDIM的梳理'
 categories = ["扩散模型"]
 tags = ["ddpm", "ddim"]
