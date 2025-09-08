@@ -326,11 +326,13 @@ $$
 \boldsymbol{x}_{i+1}+\boldsymbol{x}_{i+2}=\boldsymbol{x}_{i+3}
 $$
 </div>
-
 自动编号公式：
+
+$$
 \begin{equation}
 E = mc^2 \label{eq:energy}
 \end{equation}
+$$
 
 如公式 $\eqref{eq:energy}$ 所示，质量和能量的关系如下。渲染完成！
 
@@ -348,7 +350,7 @@ git push -u origin main
 ## 发布或者更新博客
 后续的博客统一放在content/posts/目录下：
 ```bash
-hugo new content content/posts/my-first-post.md
+hugo new content/posts/my-first-post.md
 ```
 使用编辑器编辑mu-first-post.md后，启动hugo本地服务器预览博客：
 ```bash
